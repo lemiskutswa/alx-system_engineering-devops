@@ -2,7 +2,7 @@
 # This script is displaying information about the holbertonschool file.
 # use if and, else: check if the file exists and print:
 # If the file exists, does not exist, is empty or not, is a regular or not.
-name_file='holbertonschool'
+name_file='bestschool'
 if [ -e $name_file ]
 then
     echo "$name_file file exists"
