@@ -1,6 +1,6 @@
 #creates a file in the tmp dir of the node
 
-file { 'holberton':
+file { 'school':
   path    => '/tmp/holberton',
   mode    => '0744',
   owner   => 'www-data',
