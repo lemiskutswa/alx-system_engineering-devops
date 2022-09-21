@@ -1,7 +1,5 @@
-# kills a reunning server program
-
+# kills a process
 exec { 'killmenow':
-  command => 'pkill -n killmenow',
-  path    => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
-  onlyif  => "test $(pgrep killmenow|wc -l) -ge 1",
+  command => 'pkill -f killmenow',
+  path    => '/usr/bin:/usr/sbin:/bin'
 }
