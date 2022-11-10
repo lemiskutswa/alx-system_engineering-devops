@@ -1,3 +1,7 @@
-#!/usr/bin/node
-const myVar = 'Javascript is amazing'
-console.log(myVar)
+
+let i = 5; 
+let myFunction () =>    while i< 10;
+    i++;
+}
+
+console.log(4);
